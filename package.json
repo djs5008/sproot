@@ -1,0 +1,32 @@
+{
+  "name": "sproot",
+  "version": "1.0.0",
+  "description": "For the love of trees!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djs5008/sproot.git"
+  },
+  "keywords": [
+    "sproot",
+    "tree",
+    "grow",
+    "random",
+    "procedural",
+    "colorful",
+    "art"
+  ],
+  "author": "Dan Schmitt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/djs5008/sproot/issues"
+  },
+  "homepage": "https://github.com/djs5008/sproot#readme",
+  "devDependencies": {
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}
