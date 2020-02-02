@@ -2,9 +2,12 @@
   "name": "sproot",
   "version": "1.0.0",
   "description": "For the love of trees!",
-  "main": "index.js",
+  "main": "server/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node .",
+    "build": "webpack",
+    "build-dev": "webpack --mode=development --watch"
   },
   "repository": {
     "type": "git",
@@ -26,7 +29,16 @@
   },
   "homepage": "https://github.com/djs5008/sproot#readme",
   "devDependencies": {
-    "webpack": "^4.41.5",
-    "webpack-cli": "^3.3.10"
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "pixi-filters": "^3.0.3",
+    "pixi.js": "^5.2.1"
   }
 }
