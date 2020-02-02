@@ -1,5 +1,5 @@
 import * as PIXI from "pixi.js";
-import { DropShadowFilter, AsciiFilter, AdvancedBloomFilter } from "pixi-filters";
+import { DropShadowFilter } from "pixi-filters";
 import config from "./config";
 import TreeNode from "./tree-node";
 
